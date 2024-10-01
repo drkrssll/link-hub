@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <DisplayParticles id="particles" />
-      <div className="min-h-screen font-[family-name:var(--font-geist-mono)] grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 relative z-10">
+      <div className="pt-20 font-[family-name:var(--font-geist-mono)] grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 relative z-10">
         <main
           className="
             border-2
@@ -18,7 +18,7 @@ export default function Home() {
             [border-image-slice:1]
           "
         >
-          <div className="flex gap-2 items-center flex-col w-56">
+          <div className="flex gap-2 items-center flex-col w-60">
             <p
               style={{ fontSize: "36px" }}
               className="flex align-middle justify-items-center pl-5 pr-5 pt-5 text-lg"
