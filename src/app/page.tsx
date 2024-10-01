@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <DisplayParticles id="particles" />
-      <div className="pt-20 font-[family-name:var(--font-geist-mono)] grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 relative z-10">
+      <div className="md:min-h-screen sm:pt-20 font-[family-name:var(--font-geist-mono)] grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 relative z-10">
         <main
           className="
             border-2
